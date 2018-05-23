@@ -1,0 +1,31 @@
+lin00116@csel-kh4250-29:/home/lin00116/Downloads/CSCI4211ass1/CSCI4211-PRO1 $ python3 DNSClientV3.py 
+Type in a domain name to query, or 'q' to quit:
+www.google.com
+      Received: Local DNS:www.google.com:173.194.197.105
+
+Type in a domain name to query, or 'q' to quit:
+www.multiple.com
+      Received: Local DNS:www.multiple.com:216.58.192.142
+
+Type in a domain name to query, or 'q' to quit:
+www.umn.edu
+      Received: Root DNS:www.umn.edu:134.84.119.7
+
+Type in a domain name to query, or 'q' to quit:
+umn.edu
+      Received: Root DNS:umn.edu:134.84.119.7
+
+Type in a domain name to query, or 'q' to quit:
+umn.edu
+      Received: Local DNS:umn.edu:134.84.119.7
+
+Type in a domain name to query, or 'q' to quit:
+www.notexsistwebsite.com
+      Received: Host not found. Please recheck the domain name and domain suffixes.
+
+Type in a domain name to query, or 'q' to quit:
+thisisaninvalidformat
+      Received: Host not found. Invalid format, lack of domain suffixes.
+
+Type in a domain name to query, or 'q' to quit:
+q
